@@ -1,0 +1,47 @@
+.banner-img {
+  margin-left: 10px;
+  margin-top: 5px;
+  z-index: -1;
+  margin-bottom: -150px;
+  mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+}
+
+.banner {
+  margin: 0;
+  display: flex;
+  flex-direction: 'row';
+  mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5));
+}
+
+.banner-prev {
+  color: white;
+  position: absolute;
+  z-index: 10;
+  right: 32px;
+  top: 40%;
+  cursor: pointer;
+}
+.banner-next {
+  color: white;
+  position: absolute;
+  z-index: 10;
+  left: 32px;
+  top: 40%;
+  cursor: pointer;
+}
+.Scroll-option {
+  display: flex;
+  flex-direction: 'row';
+  justify-content: space-between;
+  align-items: 'center';
+  top: -50px;
+}
+.banner-scroll {
+  display: flex;
+  flex-direction: 'row';
+}
+.radio-scroll {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}

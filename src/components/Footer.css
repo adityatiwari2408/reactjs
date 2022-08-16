@@ -1,0 +1,35 @@
+.Backtotop {
+  width: 100%;
+}
+.Back {
+  background-color: #004b91;
+}
+.footer {
+  position: relative;
+  bottom: 0;
+}
+ul > li {
+  list-style-type: none;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  color: white;
+}
+ul > h3 {
+  color: white;
+  font-weight: Bold;
+}
+.footer-details {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: space-around;
+  align-self: center;
+}
+.Footer-card {
+  height: 20vh;
+  background-color: #232f3e;
+}
+ul > li > a {
+  text-decoration: none;
+  color: aliceblue;
+}
